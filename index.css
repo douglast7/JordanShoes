@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #f9f9f9;
+  --white-200: #ebe9ea;
+  --gray: #474747;
+  --black-light: #181818;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+
+  object-fit: cover;
+}
+
+/* Topo */
+
+.desconto {
+  background: var(--black-light);
+
+  text-align: center;
+
+  height: 60px;
+}
+
+.desconto p {
+  padding-top: 20px;
+
+  color: var(--white);
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.jordanshoes-logo-bg {
+  background: var(--white);
+
+  height: 60px;
+
+  text-align: center;
+}
+
+.jordanshoes-logo-bg h2 {
+  color: var(--black-light);
+
+  font-size: 24px;
+  font-weight: 600;
+
+  padding-top: 15px;
+}
+
+.jordanshoes-banner img {
+  width: 100vw;
+  filter: brightness(50%);
+}
+
+main {
+  position: relative;
+}
+
+.jordanshoes-banner-text {
+  position: absolute;
+
+  top: 35%;
+  left: 7.4%;
+}
+
+.jordanshoes-text h2 {
+  color: var(--white);
+
+  font-size: 32px;
+  font-weight: 700;
+
+  padding-bottom: 19px;
+}
+
+.jordanshoes-text p {
+  color: var(--white);
+
+  font-size: 18px;
+  font-weight: 600;
+
+  line-height: 35px;
+
+  width: 460px;
+}
+
+.galeria-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1200px 1fr;
+}
+
+.galeria-text {
+  grid-column: 2;
+
+  text-align: center;
+
+  padding-top: 58px;
+}
+
+.galeria-text h1 {
+  color: var(--black-light);
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.galeria-text p {
+  color: var(--gray);
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.galeria-jordan {
+  grid-column: 2;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+
+  margin-bottom: 100px;
+  margin-top: 59px;
+}
+
+.galeria-bg {
+  background: #ebe9ea;
+
+  padding: 76px 15px;
+}
+
+footer {
+  background: var(--black-light);
+
+  height: 60px;
+
+  text-align: center;
+}
+
+footer p {
+  padding-top: 20px;
+
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 414px) {
+  .jordanshoes-banner img {
+    background: url(Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino.jpg);
+    height: 377px;
+  }
+  .jordanshoes-text h2 {
+    font-size: 28px;
+  }
+  .jordanshoes-text p {
+    font-size: 16px;
+    width: 357px;
+  }
+  .galeria-jordan {
+    flex-direction: column;
+
+    width: 374px;
+
+    margin: 59px 20px;
+  }
+  .galeria-bg {
+    padding: 76px 62px;
+  }
+  .galeria-text {
+    grid-column: 2;
+    text-align: initial;
+    padding-left: 20px;
+  }
+
+  .galeria-text h1 {
+    font-size: 28px;
+
+    padding-left: 110px;
+  }
+  .galeria-text p {
+    font-size: 16px;
+
+    width: 347px;
+
+    text-align: center;
+    padding-left: 20px;
+
+    line-height: 28.8px;
+  }
+}
