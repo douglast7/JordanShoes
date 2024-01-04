@@ -127,6 +127,7 @@ main {
   /* object-fit: cover; */
 
   margin-bottom: 1.8rem;
+  border-radius: 20px;
 }
 
 .jordanDetails {
@@ -153,4 +154,15 @@ main {
   font-size: 2rem;
   font-weight: 500;
   line-height: 2.5rem;
+}
+
+.jordanIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jordanIcon svg {
+  width: 25px;
+  height: 25px;
 }
