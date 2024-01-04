@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1216px;
+  min-width: 319px;
+}
+
+:root {
+  --brand-color: #7ca2f4;
+  --dark-10: #121214;
+  --dark-20: #f3f7ff;
+  --dark-30: #ffffff;
+}
+
+.jordanFrete {
+  background-size: var(--dark-20);
+  text-align: center;
+  color: var(--dark-10);
+  font-size: 2.4rem;
+  font-weight: 500;
+
+  display: block;
+
+  padding: 19px 0;
+}
+
+.jordanImage {
+  object-fit: cover;
+}
+
+.jordanHeroImage {
+  position: relative;
+}
+
+.jordanPosition {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+}
+
+.jordanTextHero {
+  color: white;
+}
+.jordanTextHero h2 {
+  color: var(--dark-30);
+
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.4rem;
+
+  padding-top: 2rem;
+}
+
+.jordanTextHero p {
+  color: var(--dark-30);
+
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+
+  width: 550px;
+
+  padding-top: 2rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h3 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.4rem;
+
+  color: var(--dark-10);
+}
+
+.heading p {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  color: var(--dark-10);
+
+  width: 593px;
+}
+
+main {
+  padding: 80px 0;
+}
+
+.airJordan {
+  max-width: 1216px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3.2rem;
+}
+
+.jordanProduct {
+  background-color: var(--dark-20);
+  padding: 32px 79px;
+  /* object-fit: cover; */
+
+  margin-bottom: 1.8rem;
+}
+
+.jordanDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.jordanDetails p {
+  color: var(--dark-10);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+}
+
+.jordanDetails span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--brand-color);
+}
+
+.jordanPrice {
+  color: var(--dark-10);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
